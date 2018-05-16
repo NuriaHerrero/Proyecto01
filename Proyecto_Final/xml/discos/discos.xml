@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href ="./discos.xslt"?>
+<catalog>
+  <discos>
+    <nombre>WD Blue</nombre>
+    <capacidad>1 TB</capacidad>
+    <marca>Western Digital</marca>
+    <precio>44,09</precio>
+    <imagen ruta="../../imagenes/disco_duro01.jpg"/>
+  </discos>.
+   <discos>
+    <nombre>Canvio</nombre>
+    <capacidad>1 TB</capacidad>
+    <marca>Toshiba</marca>
+    <precio>49,99</precio>
+    <imagen ruta="../../imagenes/disco_duro02.jpg"/>
+  </discos>
+   <discos>
+    <nombre>Carcassa</nombre>
+    <capacidad>1 TB</capacidad>
+    <marca>TooQ</marca>
+    <precio>10,99</precio>
+    <imagen ruta="../../imagenes/disco_duro03.jpg"/>
+  </discos>
+  </catalog>

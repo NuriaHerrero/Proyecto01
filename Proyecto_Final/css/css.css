@@ -1,0 +1,345 @@
+            body {
+                background-image: url(../imagenes/fondo-web-nexun.png); /* Aquí estamos dando un fondo con una imagen que tenemos guardada */
+            }
+            #titulo {
+                color: gainsboro;
+                text-align: center;
+                font-family: 'Gugi', cursive;
+                font-size: 40px;
+            }
+            #frase_de_bienvenida {
+                color: gainsboro;
+                text-align: center;
+                font-family: 'Gugi', sans-serif;
+            }
+            #navegador ul{
+                list-style-type: none;
+                text-align: center;
+                font-family: 'Gugi', sans-serif;
+            }
+            #navegador li{
+                display: inline;
+                text-align: center;
+                margin: 0 10px 0 0; /* Aquí las medidas que pongamos serán las que separen a las cajas */
+            }
+            #navegador li a{
+                padding: 2px 7px 2px 7px; /* Aquí indicamos la distancia desde la letra hasta el borde del botón */
+                color: #666;
+                background-color: #eeeeee;
+                border: 1px solid #ccc;
+                text-decoration: none; 
+                border-radius: 5px; /* Aquí indicamos que queremos los bordes de los botones redondos */
+            }
+            #navegador li a:hover{
+                background-color: #333333; /* Con hover indicamos el color del fondo y de la letra que adoptará el botón cuando pasemos por encima el puntero */
+                color: #ffffff;
+            }
+            #barra_vertical ul{
+                list-style-type: none;/* Esto es para quitar el subrayado y los puntos que aparecen al crear la lista */
+                text-align: left;
+                font-family: 'Gugi', sans-serif;
+                margin: 10px 0px 0px 0px /*top, right, bottom, left*/;
+                padding: 0px;
+                width: 200px;
+            }
+            #barra_vertical li{
+                color: grey;
+                text-align: left;
+                margin: 0 0 20px 0;
+            }
+            #barra_vertical li a{
+                padding: 2px 7px 2px 7px;
+                color: #666;
+                background-color: #eeeeee;
+                border-bottom-color: 1px solid #eee;
+                text-decoration: none;
+                border-radius: 5px;
+                
+            }
+            #barra_vertical li a:hover{
+                background-color: #333333;
+                color: #ffffff;
+            }
+/*Botón búsqueda*/
+            #searchform {
+                width: 280px;
+                height: 30px;
+                padding: 8px;
+                margin: 50px auto;
+                background: #ccc;
+                border-radius: 5px;
+                box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 2px 0 rgba(255,255,255,.5);
+            }
+            #searchform input{
+                width: 190px;
+                height: 20px;
+                padding: 5px;
+                float: left;
+                border: 0;
+                background: #eee;
+                border-radius: 3px 0 0 3px;
+                box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 2px 0 rgba(255,255,255,.5);
+            }
+            #searchform input:focus {
+                outline: 0;
+                height: 21px;
+                background: #fff;
+                box-shadow: 0 0 2px rgba(0,0,0,.8)
+            }
+            #searchform input:-webkit-input-placeholder{
+                color: #999;
+                font-weight: normal;
+                font-style: italic;
+            }
+            #searchform input:-moz-placeholder{
+                color: #999;
+                font-weight: normal;
+                font-style: italic;
+            }
+            #searchform input:-ms-input-placeholder{
+                color: #999;
+                font-weight: normal;
+                font-style: italic;
+            }
+            #searchform button {
+                position: relative;
+                float: right;
+                border: 0;
+                cursor: pointer;
+                height: 30px;
+                width: 80px;
+                font-size: 15px;
+                color: #fff;
+                background: #666;
+                border-radius: 0 3px 3px 0;
+                text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+            }
+            #searchform buttom:hover{
+                background: #666;
+            }
+            #searchform button:active{
+                background: #666;
+            }
+            #searchform button:focus{
+                background: #666;
+            }
+            #searchform button:before{ /* Flecha */
+                content: '';
+                position: absolute;
+                border-width: 8px 8px 8px 0;
+                border-style: solid solid solid none;
+                border-color: transparent #666 transparent;
+                top: 8px;
+                left: -5px;
+            }
+            #searchform button:hover:before{
+                border-right-color: #666;
+            }
+            #searchform button:focus:before{
+                border-right-color: #666;
+            }
+            #flex-container {
+                display: flex;
+                flex-flow: row wrap;
+                margin: 50px;
+                align-items: center;
+            }
+            #texto_central {
+                font-family: 'Gugi', sans-serif;
+                color: gainsboro;
+                text-align: justify;
+                display: block;
+                margin-left: 200px;
+                margin-top: -160px;
+            }
+            #imagenes {
+                border-style: inset;
+                border-width: 5px;
+                border-color: gainsboro;
+                border-radius: 5px;
+                
+            }
+            /* Contact
+---------------------------------*/
+            .main-section.contact{
+                padding:0px 0px 100px;
+            }
+            .contact-info-box{
+                font-size:15px;
+                margin:0 0 100px 30px;
+                padding-left:0;
+                color: gainsboro;
+            }
+            .contact-info-box h3{
+                font-size: 20px;
+                font-weight:400;
+                float:left;
+                width:100px;
+                margin-right:105px;
+                line-height:28px;
+            }
+            .contact-info-box h3 i{
+                font-style:normal;
+                font-size:20px;
+                color:gainsboro;
+                font-family: 'FontAwesome';
+                font-weight:normal;
+                margin-right:7px;
+            }
+            .contact-info-box span{
+                line-height:28px;
+                display:block;
+                overflow:hidden;
+            }
+            .social-link{
+                padding:35px 0;
+                margin:0 0 0 68px;
+                display:block;
+                overflow:hidden;
+                list-style:none;
+            }
+            .social-link li{
+                float:left;
+                margin-right:8px;
+            }
+            .social-link li a{
+                display:block;
+                width:50px;
+                height:50px;
+                text-align:center;
+                line-height:50px;
+                font-size:250px;
+                color:#fff;
+                background:#222222;
+                border-radius:50%;
+                transition:all 0.3s ease-in-out;
+            }
+            
+            
+
+            .form{
+                margin:0 66px 0 30px;
+            }
+            .input-text{
+                padding:15px 16px;
+                border:1px solid #ccc;
+                width:45%;
+                height:20px;
+                display:block;
+                border-radius:4px;
+                font-size:15px;
+                color:#aaa;
+                font-family: 'Open Sans', sans-serif;
+                margin:0 0 15px 0;
+                transition:all 0.3s ease-in-out;
+                -moz-transition:all 0.3s ease-in-out;
+                -webkit-transition:all 0.3s ease-in-out;
+            }
+            .input-text:focus {
+                border: 1px solid #7cc576;
+                outline:0;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
+                -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);	
+                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
+            }
+
+            .input-text.text-area{
+                height:165px;
+                resize:none;
+                overflow:auto;
+            }
+            .input-btn{
+                width:175px;
+                height:50px;
+                background:#7cc576;
+                border-radius:4px;
+                color:#ffffff;
+                font-size:14px;
+                text-transform:uppercase;
+                font-family: 'Montserrat', sans-serif;
+                font-weight:400;
+                border:0px;
+                transition:all 0.3s ease-in-out;
+                -moz-transition:all 0.3s ease-in-out;
+                -webkit-transition:all 0.3s ease-in-out;
+            }
+
+            .input-btn:hover{
+                background: #111;
+                color: #fff;
+            }
+
+            .validation {
+                color: red;
+                display:none;
+                margin: 0 0 20px;
+                font-weight:400;
+                font-size:13px;
+            }
+
+            #sendmessage {
+                color: #7cc576;
+                border:1px solid #7cc576;
+                display:none;
+                text-align:center;
+                padding:15px;
+                font-weight:600;
+                margin-bottom:15px;
+            }
+
+            #errormessage {
+                color: red;
+                display:none;
+                border:1px solid red;
+                text-align:center;
+                padding:15px;
+                font-weight:600;
+                margin-bottom:15px;
+            }
+
+            #sendmessage.show, #errormessage.show, .show {
+                display:block;
+            }
+                       .fa {
+              padding: 20px;
+              font-size: 30px;
+              width: 30px;
+              text-align: center;
+              text-decoration: none;
+              margin: 5px 2px;
+              border-radius: 50%;
+            }
+            
+            .icon-map-marker:before {
+              content: "\f041";
+            }
+            
+            span {
+                font-size: 27px;
+            }
+/* botones redes sociales */
+
+            .fa {
+                padding: 15px;
+                font-size: 30px;
+                width: 20px;
+                text-align: center;
+                text-decoration: none;
+            }
+            .fa:hover {
+                opacity: 0.7;
+            }
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+
+/*Letras para xml*/
+            .letras_blancas{
+                color: beige;
+                font-family: Impact;
+            }
